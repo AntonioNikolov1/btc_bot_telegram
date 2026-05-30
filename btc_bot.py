@@ -135,8 +135,8 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         "I'll notify you when Bitcoin hits your target prices.\n\n"
         "*Commands:*\n"
         "• `/price` — Current BTC price\n"
-        "• `/setbuy 60000` — Alert when BTC drops *below* $60,000\n"
-        "• `/setsell 80000` — Alert when BTC rises *above* $80,000\n"
+        "• `/setbuy <price>` — Alert when BTC drops *below* a certain threshold, enter without <>\n"
+        "• `/setsell <price>` — Alert when BTC rises *above* a certain threshold, enter without <>\n"
         "• `/alerts` — View your active alerts\n"
         "• `/clear` — Remove all your alerts",
         parse_mode="Markdown",
